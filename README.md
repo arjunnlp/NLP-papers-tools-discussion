@@ -1,9 +1,6 @@
 ## NLP-papers-tools-discussion
 Anything useful goes here
 
-
-## Welcome to the arjunnlp.github.io Wiki. NLP related stuff that can be of use goes here.
-
 ### Possible research directions, other than what we already do:
 
 [The 4 Biggest Open Problems in NLP Today](http://ruder.io/4-biggest-open-problems-in-nlp/)
