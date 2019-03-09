@@ -31,7 +31,7 @@ PyTorch tools:
 
 [ipyexperiments - will save you 20-30% video and 10-15% system memory](https://github.com/stas00/ipyexperiments)
 
-[ipyexperiof usage s in: ](https://github.com/arjunnlp/NLP-papers-tools-discussion/blob/master/preprocess-dainis.ipynb)
+[ipyexperiof usage examples in some kaggle contest code I wrote](https://github.com/arjunnlp/NLP-papers-tools-discussion/blob/master/preprocess-dainis.ipynb)
 
 Make sure to either use IPyTorchExperiments all the time, or IPyCPUExperiments if don't care to use GPU. If you are using a GPU, you must be sure to use the IPyTorchExperiments and that the text after the cell tells you it is indeed using GPU backend.
 
@@ -55,6 +55,8 @@ Some of the best examples of technical writing (papers & blogs go hand in hand!)
 [Disciplined Training of Neural Networks](https://arxiv.org/abs/1803.09820)
 
 ### Blogs You Should Follow
+
+[Stanford AI Salon: bi-weekly discussion on important topic in AI/NLP/ML, closed from the public due to space restrictions, but notes and videos are now posted in a blog. Previous guests include LeCun, Hinton, Ng., and others](http://ai.stanford.edu/blog/)
 
 [Anrej Karpathy](https://medium.com/@karpathy)
 
