@@ -1,13 +1,13 @@
 ## NLP-papers-tools-discussion
 Anything useful goes here
 
-### Possible research directions, other than what we already do:
+### Possible research directions and Fundamental discussions
 
 [The 4 Biggest Open Problems in NLP Today](http://ruder.io/4-biggest-open-problems-in-nlp/)
 
-### SOTA
+[What innate priors should we build into the architecture of deep learning systems? A debate between Prof. Y. LeCun and Prof. C. Manning](https://www.abigailsee.com/2018/02/21/deep-learning-structure-and-innate-priors.html)
 
-### New Libraries
+### New Libraries/SOTA we care about
 
 [Flair - LM/Embedding/General NLP lib. Fastest growing NLP project on github](https://github.com/zalandoresearch/flair)
 
