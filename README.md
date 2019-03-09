@@ -13,6 +13,18 @@ Anything useful goes here
 
 ### Visualization Software
 
+General:
+
+[TensorboardX for PyTorch](https://github.com/arjunnlp/tensorboardX)
+
+[Visdom - similar to tensorboard](https://github.com/arjunnlp/visdom)
+
+LSTM:
+
+[LSTMVis: Visualizng LSTM](https://github.com/HendrikStrobelt/LSTMVis)
+
+[Seq2Seq Vis: Visualization for Sequential Neural Networks with Attention](https://github.com/HendrikStrobelt/Seq2Seq-Vis)
+
 ### Other useful tools
 
 PyTorch tools:
