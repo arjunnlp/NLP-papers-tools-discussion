@@ -15,6 +15,14 @@ Anything useful goes here
 
 ### Other useful tools
 
+PyTorch tools:
+
+[ipyexperiments - will save you 20-30% video and 10-15% system memory](https://github.com/stas00/ipyexperiments)
+
+[ipyexperiof usage s in: ](https://github.com/arjunnlp/NLP-papers-tools-discussion/blob/master/preprocess-dainis.ipynb)
+
+Make sure to either use IPyTorchExperiments all the time, or IPyCPUExperiments if don't care to use GPU. If you are using a GPU, you must be sure to use the IPyTorchExperiments and that the text after the cell tells you it is indeed using GPU backend.
+
 ### Paper and Technical Writing HOWTO
 
 On writing research papers:
