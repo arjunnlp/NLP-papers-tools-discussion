@@ -11,6 +11,57 @@ Anything useful goes here
 
 [Flair - LM/Embedding/General NLP lib. Fastest growing NLP project on github](https://github.com/zalandoresearch/flair)
 
+### My Bag of Trocks for Deep Learning performance - add yours too:
+
+[Mini-batch data parallelism, sort of default in PyTorch](https://towardsdatascience.com/speed-up-your-algorithms-part-1-pytorch-56d8a4ae7051)
+
+[Numba: compiled and highly optimized C/C++/Fortran code will be used instead of slow numpy (even cython is slower)](https://towardsdatascience.com/speed-up-your-algorithms-part-2-numba-293e554c5cc1)
+
+
+Best of all you still code in python, just need a decorator on top of time-consuming function:
+
+```
+from numba import jit, int32
+
+# we declare return value and types, turn off jit compiler 
+# and go directly for binary (making it harder to debug 
+# but SO much faster. Finally all vector ops will be 
+# distributed between cores if your CPU
+
+@jit(int32(int32, int32), nopython=true, parallel=true)
+def function(a, b):
+    # your loop or numerically intensive computations
+    return result
+
+# in this function we are saying "you are no longer restricted
+# to types we specify, just run it all in parallel, on one
+# or more CPUs, using threads or processes or whatever!
+# numba is smart enough to figure out the best way to do so
+
+@vectorize
+def function2(c):
+    # your loop or numerically intensive computations
+    return result
+```
+
+[DASK - parallelizing numpy, pandasm python, scikit-learn, literally everything...](https://towardsdatascience.com/speeding-up-your-algorithms-part-4-dask-7c6ed79994ef)
+
+[Modin: A lighter and simpler to use but alternative to DASK](https://github.com/modin-project/modin)
+```
+# replace the following line
+#import pandas as pd
+# with
+import modin.pandas as pd
+```
+
+You are DONE! pandas is 10-30 times faster!!!!! but sometimes will crash :)
+
+[ipyexperiments - will save you 20-30% video and 10-15% system memory](https://github.com/stas00/ipyexperiments)
+
+[ipyexperiof usage examples in some kaggle contest code I wrote](https://github.com/arjunnlp/NLP-papers-tools-discussion/blob/master/preprocess-dainis.ipynb)
+
+Make sure to either use IPyTorchExperiments all the time, or IPyCPUExperiments if don't care to use GPU. If you are using a GPU, you must be sure to use the IPyTorchExperiments and that the text after the cell tells you it is indeed using GPU backend.
+
 ### Visualization Software
 
 General:
@@ -24,16 +75,6 @@ LSTM:
 [LSTMVis: Visualizng LSTM](https://github.com/HendrikStrobelt/LSTMVis)
 
 [Seq2Seq Vis: Visualization for Sequential Neural Networks with Attention](https://github.com/HendrikStrobelt/Seq2Seq-Vis)
-
-### Other useful tools
-
-PyTorch tools:
-
-[ipyexperiments - will save you 20-30% video and 10-15% system memory](https://github.com/stas00/ipyexperiments)
-
-[ipyexperiof usage examples in some kaggle contest code I wrote](https://github.com/arjunnlp/NLP-papers-tools-discussion/blob/master/preprocess-dainis.ipynb)
-
-Make sure to either use IPyTorchExperiments all the time, or IPyCPUExperiments if don't care to use GPU. If you are using a GPU, you must be sure to use the IPyTorchExperiments and that the text after the cell tells you it is indeed using GPU backend.
 
 ### Paper and Technical Writing HOWTO
 
