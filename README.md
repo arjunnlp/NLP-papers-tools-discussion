@@ -23,15 +23,18 @@ Best of all you still code in python, just need a decorator on top of time-consu
 ```
 from numba import jit, int32
 
-# we declare return value and types, turn off jit compiler 
-# and go directly for binary (making it harder to debug 
-# but SO much faster. Finally all vector ops will be 
-# distributed between cores if your CPU
+# a 4-letter magick word that will make any function that
+# takes 20-30 seconds finish in 5 or so!
 
 @njit
 def function0(a, b):
     # your loop 
     return result
+    
+# we declare return value and types, turn off jit compiler 
+# and go directly for binary (making it harder to debug 
+# but SO much faster. Finally all vector ops will be 
+# distributed between cores if your CPU
     
 @jit(int32(int32, int32), nopython=true, parallel=true)
 def function(a, b):
