@@ -32,6 +32,7 @@ from numba import jit, int32
 def function0(a, b):
     # your loop 
     return result
+    
 @jit(int32(int32, int32), nopython=true, parallel=true)
 def function(a, b):
     # your loop or numerically intensive computations
