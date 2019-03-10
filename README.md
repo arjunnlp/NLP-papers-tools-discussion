@@ -46,7 +46,7 @@ def function2(c):
 
 [DASK - parallelizing numpy, pandasm python, scikit-learn, literally everything...](https://towardsdatascience.com/speeding-up-your-algorithms-part-4-dask-7c6ed79994ef)
 
-[Modin: A lighter and simpler to use but alternative to DASK](https://github.com/modin-project/modin)
+[Modin: An alternative to DASK but only for Pandas - much simpler and lighter if I/O is what you need. Will process 10 GB DataFrame in seconds.](https://github.com/modin-project/modin)
 ```
 # replace the following line
 #import pandas as pd
