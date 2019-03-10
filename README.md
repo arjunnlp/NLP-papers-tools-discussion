@@ -18,7 +18,7 @@ Anything useful goes here
 [Numba: compiled and highly optimized C/C++/Fortran code will be used instead of slow numpy (even cython is slower)](https://towardsdatascience.com/speed-up-your-algorithms-part-2-numba-293e554c5cc1)
 
 
-Best of all you still code in python, just need a decorator on top of time-consuming function:
+Best of all you still code in python, just need a decorator on top of time-consuming function. MAKE SURE IT IS TIME CONSUMING - just spamming @njit eveywhere will do the opposite of what you want, initializing numba costs resources!
 
 ```
 from numba import jit, int32
@@ -28,6 +28,10 @@ from numba import jit, int32
 # but SO much faster. Finally all vector ops will be 
 # distributed between cores if your CPU
 
+@njit
+def function0(a, b):
+    # your loop 
+    return result
 @jit(int32(int32, int32), nopython=true, parallel=true)
 def function(a, b):
     # your loop or numerically intensive computations
