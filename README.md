@@ -11,6 +11,12 @@ Anything useful goes here
 
 [Flair - LM/Embedding/General NLP lib. Fastest growing NLP project on github](https://github.com/zalandoresearch/flair)
 
+[FAIRseq - Facebook AI Research toolkit for seqence modeling](https://github.com/pytorch/fairseq)
+
+[AllenNLP - An open-source NLP research library, built on PyTorch by Allen AI Research Institute](https://github.com/allenai/allennlp)
+
+[FastAI - ULMFit, Transformer, TransformerXL implementations and more](https://docs.fast.ai/text.html)
+
 ### My Bag of Trocks for Deep Learning performance - add yours too:
 
 [Mini-batch data parallelism, sort of default in PyTorch](https://towardsdatascience.com/speed-up-your-algorithms-part-1-pytorch-56d8a4ae7051)
