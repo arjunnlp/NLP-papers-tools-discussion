@@ -12,6 +12,7 @@ Anything useful goes here
 [Flair - LM/Embedding/General NLP lib. Fastest growing NLP project on github](https://github.com/zalandoresearch/flair)
 
 [FAIRseq - Facebook AI Research toolkit for seqence modeling](https://github.com/pytorch/fairseq)
+multi-GPU (distributed) training on one machine or across multiple machines
 
 [AllenNLP - An open-source NLP research library, built on PyTorch by Allen AI Research Institute](https://github.com/allenai/allennlp)
 
