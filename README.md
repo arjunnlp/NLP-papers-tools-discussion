@@ -76,7 +76,7 @@ You are DONE! pandas is 10-30 times faster!!!!! but sometimes will crash :)
 
 Make sure to either use IPyTorchExperiments all the time, or IPyCPUExperiments if don't care to use GPU. If you are using a GPU, you must be sure to use the IPyTorchExperiments and that the text after the cell tells you it is indeed using GPU backend.
 
-### Visualization Software
+### Visualization Tools
 
 General:
 
@@ -84,11 +84,24 @@ General:
 
 [Visdom - similar to tensorboard](https://github.com/arjunnlp/visdom)
 
-LSTM:
+[Visualizing Representations: Deep Learning for Human Beings](http://colah.github.io/posts/2015-01-Visualizing-Representations/)
+
+[Jay Allamar: Visualizing machine learning one concept at a time](https://jalammar.github.io/)
+
+
+Sequential:
 
 [LSTMVis: Visualizng LSTM](https://github.com/HendrikStrobelt/LSTMVis)
 
 [Seq2Seq Vis: Visualization for Sequential Neural Networks with Attention](https://github.com/HendrikStrobelt/Seq2Seq-Vis)
+
+Attention:
+
+[BERTVizTool for visualizing attention in BERT and OpenAI GPT-2](https://github.com/jessevig/bertviz)
+
+[tensor2tensor: visualizing Transformer paper](https://github.com/tensorflow/tensor2tensor/tree/master/tensor2tensor/visualization)
+
+[The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
 
 ### Paper and Technical Writing HOWTO
 
@@ -104,10 +117,32 @@ Some of the best examples of technical writing (papers & blogs go hand in hand!)
 
 [How do we 'train' Neural Networks?](https://towardsdatascience.com/how-do-we-train-neural-networks-edd985562b73)
 
-### Must-read papers
+### Must-read papers and technical articles
+
+[Deconstructing BERT: Distilling 6 Patterns from 100 Million Parameters, Part 1](https://towardsdatascience.com/deconstructing-bert-distilling-6-patterns-from-100-million-parameters-b49113672f77)
+
+[Deconstructing BERT: Distilling 6 Patterns from 100 Million Parameters, Part 2](https://towardsdatascience.com/deconstructing-bert-part-2-visualizing-the-inner-workings-of-attention-60a16d86b5c1)
+
+[The illustrated BERT](https://jalammar.github.io/illustrated-bert/)
+
 [Deep Graph Methods Survey](https://arxiv.org/pdf/1901.00596.pdf)
 
-[Disciplined Training of Neural Networks](https://arxiv.org/abs/1803.09820)
+[Disciplined Training of Neural Networks](https://arxiv.org/abs/1803.09820
+
+On Language Models:
+
+[NLP's ImageNet moment has arrived](http://ruder.io/nlp-imagenet/)
+
+[Attention is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
+
+[Improving Language Understanding by Generative Pre-Training](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)
+
+[Deep contextualized word representations](https://arxiv.org/pdf/1802.05365.pdf)
+
+[Universal Language Model Fine-tuning for Text Classification](https://arxiv.org/pdf/1801.06146.pdf)
+
+[TRANSFORMER-XL: ATTENTIVE LANGUAGE MODELS
+BEYOND A FIXED-LENGTH CONTEXT](https://arxiv.org/pdf/1901.02860.pdf)
 
 ### Blogs You Should Follow
 
