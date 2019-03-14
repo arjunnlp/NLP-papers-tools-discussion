@@ -84,11 +84,6 @@ General:
 
 [Visdom - similar to tensorboard](https://github.com/arjunnlp/visdom)
 
-[Visualizing Representations: Deep Learning for Human Beings](http://colah.github.io/posts/2015-01-Visualizing-Representations/)
-
-[Jay Allamar: Visualizing machine learning one concept at a time](https://jalammar.github.io/)
-
-
 Sequential:
 
 [LSTMVis: Visualizng LSTM](https://github.com/HendrikStrobelt/LSTMVis)
@@ -101,7 +96,19 @@ Attention:
 
 [tensor2tensor: visualizing Transformer paper](https://github.com/tensorflow/tensor2tensor/tree/master/tensor2tensor/visualization)
 
+Guides and articles with examples:
+
 [The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
+
+[Deconstructing BERT: Distilling 6 Patterns from 100 Million Parameters, Part 1](https://towardsdatascience.com/deconstructing-bert-distilling-6-patterns-from-100-million-parameters-b49113672f77)
+
+[Deconstructing BERT: Distilling 6 Patterns from 100 Million Parameters, Part 2](https://towardsdatascience.com/deconstructing-bert-part-2-visualizing-the-inner-workings-of-attention-60a16d86b5c1)
+
+[The illustrated BERT](https://jalammar.github.io/illustrated-bert/)
+
+[Visualizing Representations: Deep Learning for Human Beings](http://colah.github.io/posts/2015-01-Visualizing-Representations/)
+
+[Jay Allamar: Visualizing machine learning one concept at a time](https://jalammar.github.io/)
 
 ### Paper and Technical Writing HOWTO
 
@@ -118,12 +125,6 @@ Some of the best examples of technical writing (papers & blogs go hand in hand!)
 [How do we 'train' Neural Networks?](https://towardsdatascience.com/how-do-we-train-neural-networks-edd985562b73)
 
 ### Must-read papers and technical articles
-
-[Deconstructing BERT: Distilling 6 Patterns from 100 Million Parameters, Part 1](https://towardsdatascience.com/deconstructing-bert-distilling-6-patterns-from-100-million-parameters-b49113672f77)
-
-[Deconstructing BERT: Distilling 6 Patterns from 100 Million Parameters, Part 2](https://towardsdatascience.com/deconstructing-bert-part-2-visualizing-the-inner-workings-of-attention-60a16d86b5c1)
-
-[The illustrated BERT](https://jalammar.github.io/illustrated-bert/)
 
 [Deep Graph Methods Survey](https://arxiv.org/pdf/1901.00596.pdf)
 
@@ -159,3 +160,5 @@ BEYOND A FIXED-LENGTH CONTEXT](https://arxiv.org/pdf/1901.02860.pdf)
 [Ilya Sutskever](https://blog.openai.com/tag/ilya-sutskever/) - Sutskever published his Transformer in this blog, not even on arxiv
 
 [Jeremy Howard](https://twitter.com/jeremyphoward) 
+
+[Jay Allamar](https://jalammar.github.io/)
