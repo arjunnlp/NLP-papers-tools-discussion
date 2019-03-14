@@ -113,7 +113,7 @@ How to do visualization or highly visual articles:
 
 [Deconstructing BERT: Distilling 6 Patterns from 100 Million Parameters, Part 2](https://towardsdatascience.com/deconstructing-bert-part-2-visualizing-the-inner-workings-of-attention-60a16d86b5c1)
 
-[The illustrated BERT](https://jalammar.github.io/illustrated-bert/)
+[The illustrated BERT, ELMo, ULMFit, and Transformer](https://jalammar.github.io/illustrated-bert/)
 
 [Visualizing Representations: Deep Learning for Human Beings](http://colah.github.io/posts/2015-01-Visualizing-Representations/)
 
