@@ -96,7 +96,7 @@ Attention:
 
 [tensor2tensor: visualizing Transformer paper](https://github.com/tensorflow/tensor2tensor/tree/master/tensor2tensor/visualization)
 
-Guides and articles with examples:
+How to do visualization or highly visual articles:
 
 [The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
 
@@ -109,6 +109,8 @@ Guides and articles with examples:
 [Visualizing Representations: Deep Learning for Human Beings](http://colah.github.io/posts/2015-01-Visualizing-Representations/)
 
 [Jay Allamar: Visualizing machine learning one concept at a time](https://jalammar.github.io/)
+
+[Attention? Attention!](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 ### Paper and Technical Writing HOWTO
 
@@ -144,6 +146,12 @@ On Language Models:
 
 [TRANSFORMER-XL: ATTENTIVE LANGUAGE MODELS
 BEYOND A FIXED-LENGTH CONTEXT](https://arxiv.org/pdf/1901.02860.pdf)
+
+[Comparing complex NLP models for complex languages on a set of real tasks](https://towardsdatascience.com/complexity-generalization-computational-cost-in-nlp-modeling-of-morphologically-rich-languages-7fa2c0b45909)
+
+[You don't need RNNs: When Recurrent Models Don't Need to be Recurrent](https://bair.berkeley.edu/blog/2018/08/06/recurrent/)
+
+
 
 ### Blogs You Should Follow
 
