@@ -127,7 +127,7 @@ Some of the best examples of technical writing (papers & blogs go hand in hand!)
 
 [Deep Graph Methods Survey](https://arxiv.org/pdf/1901.00596.pdf)
 
-[Disciplined Training of Neural Networks](https://arxiv.org/abs/1803.09820
+[Disciplined Training of Neural Networks](https://arxiv.org/abs/1803.09820)
 
 On Language Models:
 
