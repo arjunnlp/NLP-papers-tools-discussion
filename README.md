@@ -105,6 +105,8 @@ Attention:
 
 How to do visualization or highly visual articles:
 
+[Data Visualization](https://towardsdatascience.com/data-visualization/home)
+
 [The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
 
 [Deconstructing BERT: Distilling 6 Patterns from 100 Million Parameters, Part 1](https://towardsdatascience.com/deconstructing-bert-distilling-6-patterns-from-100-million-parameters-b49113672f77)
