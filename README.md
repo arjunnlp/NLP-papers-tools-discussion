@@ -7,7 +7,14 @@ Anything useful goes here
 
 [What innate priors should we build into the architecture of deep learning systems? A debate between Prof. Y. LeCun and Prof. C. Manning](https://www.abigailsee.com/2018/02/21/deep-learning-structure-and-innate-priors.html)
 
-### New Libraries/SOTA we care about
+### SOTA
+
+For practically anything involving LM:
+
+[TRANSFORMER-XL: ATTENTIVE LANGUAGE MODELS
+BEYOND A FIXED-LENGTH CONTEXT](https://arxiv.org/pdf/1901.02860.pdf)
+
+### New Libraries we care about
 
 [Flair - LM/Embedding/General NLP lib. Fastest growing NLP project on github](https://github.com/zalandoresearch/flair)
 
