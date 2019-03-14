@@ -105,6 +105,8 @@ Attention:
 
 How to do visualization or highly visual articles:
 
+[Guide to visualization of NLP representations and neural nets by C.Olah @ Google Brain](http://colah.github.io/)
+
 [Data Visualization](https://towardsdatascience.com/data-visualization/home)
 
 [The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
