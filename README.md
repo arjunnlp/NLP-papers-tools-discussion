@@ -17,7 +17,7 @@ Anything useful goes here
 
 [FastAI - ULMFit, Transformer, TransformerXL implementations and more](https://docs.fast.ai/text.html)
 
-### My Bag of Trocks for Deep Learning performance - add yours too:
+### My Bag of Tricks for Deep Learning performance - add yours too:
 
 [Mini-batch data parallelism, sort of default in PyTorch](https://towardsdatascience.com/speed-up-your-algorithms-part-1-pytorch-56d8a4ae7051)
 
@@ -111,6 +111,10 @@ How to do visualization or highly visual articles:
 [Jay Allamar: Visualizing machine learning one concept at a time](https://jalammar.github.io/)
 
 [Attention? Attention!](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
+
+### Data Preprocessing tools
+
+[PyTorch imbalanced-dataset-toolkit](https://github.com/ufoym/imbalanced-dataset-sampler)
 
 ### Paper and Technical Writing HOWTO
 
