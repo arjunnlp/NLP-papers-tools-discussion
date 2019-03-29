@@ -26,6 +26,22 @@ BEYOND A FIXED-LENGTH CONTEXT](https://arxiv.org/pdf/1901.02860.pdf)
 
 ### My Bag of Tricks for Deep Learning performance - add yours too:
 
+First, make sure you got all the NVIDIA stuff:
+
+[NVIDIA Apex: A PyTorch Extension: Tools for easy mixed precision and distributed training in Pytorch](https://github.com/nvidia/apex)
+
+[NVIDIA cuDNN: provides highly tuned implementations for standard routines such as forward and backward convolution, pooling, normalization, and activation layers.](https://developer.nvidia.com/cudnn)
+
+[NVIDIA NCCL: The NVIDIA Collective Communications Library (NCCL) implements multi-GPU and multi-node collective communication primitives that are performance optimized for NVIDIA GPUs](https://developer.nvidia.com/nccl)
+
+[NVIDIA DALI: A library containing both highly optimized building blocks and an execution engine for data pre-processing in deep learning applications](https://github.com/NVIDIA/DALI)
+
+Consider using these:
+
+[NVIDIA optimized and tuned containers for various frameworks](https://developer.nvidia.com/deep-learning-frameworks)
+
+Next:
+
 [Mini-batch data parallelism, sort of default in PyTorch](https://towardsdatascience.com/speed-up-your-algorithms-part-1-pytorch-56d8a4ae7051)
 
 [Numba: compiled and highly optimized C/C++/Fortran code will be used instead of slow numpy (even cython is slower)](https://towardsdatascience.com/speed-up-your-algorithms-part-2-numba-293e554c5cc1)
