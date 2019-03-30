@@ -91,7 +91,7 @@ def function2(c):
 import modin.pandas as pd
 ```
 
-You are DONE! pandas is 10-30 times faster!!!!! but sometimes will crash :)
+You are done, pandas is 10-30 times faster on some tasks! but sometimes will crash :)
 
 [ipyexperiments - will save you 20-30% video and 10-15% system memory](https://github.com/stas00/ipyexperiments)
 
@@ -166,6 +166,9 @@ Some of the best examples of technical writing (papers & blogs go hand in hand!)
 On Language Models:
 
 [NLP's ImageNet moment has arrived](http://ruder.io/nlp-imagenet/)
+
+[BERT: Pre-training of Deep Bidirectional Transformers for
+Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)
 
 [Attention is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
 
