@@ -159,8 +159,6 @@ Some of the best examples of technical writing (papers & blogs go hand in hand!)
 
 ### Must-read papers and technical articles
 
-[Deep Graph Methods Survey](https://arxiv.org/pdf/1901.00596.pdf)
-
 [Disciplined Training of Neural Networks](https://arxiv.org/abs/1803.09820)
 
 On Language Models:
@@ -185,7 +183,9 @@ BEYOND A FIXED-LENGTH CONTEXT](https://arxiv.org/pdf/1901.02860.pdf)
 
 [You don't need RNNs: When Recurrent Models Don't Need to be Recurrent](https://bair.berkeley.edu/blog/2018/08/06/recurrent/)
 
+Other:
 
+[Deep Graph Methods Survey](https://arxiv.org/pdf/1901.00596.pdf)
 
 ### Blogs You Should Follow
 
