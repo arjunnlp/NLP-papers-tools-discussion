@@ -139,9 +139,22 @@ How to do visualization or highly visual articles:
 
 [Attention? Attention!](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
-### Data Preprocessing tools
+### Help with Class Balance and Distribution Issues 
 
 [PyTorch imbalanced-dataset-toolkit](https://github.com/ufoym/imbalanced-dataset-sampler)
+
+[A Python Package to Tackle the Curse of Imbalanced Datasets in Machine Learning](https://github.com/scikit-learn-contrib/imbalanced-learn)
+
+[CVPR, Kaggle Winner: "Large Scale Fine-Grained Categorization and Domain-Specific Transfer Learning" with Imbalanced Class Labels](https://vision.cornell.edu/se3/wp-content/uploads/2018/03/FGVC_CVPR_2018.pdf)
+
+[8 Tactics to Combat Imbalanced Classes in Your Machine Learning Dataset](https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/)
+
+[Probability calibration](https://www.kaggle.com/dowakin/probability-calibration-0-005-to-lb/notebook)
+
+[Training on validation set when train and test are different distributions](https://www.kaggle.com/c/imaterialist-challenge-fashion-2018/discussion/57944)
+
+[Deep Learning Unbalanced Data](https://towardsdatascience.com/deep-learning-unbalanced-training-data-solve-it-like-this-6c528e9efea6)
+
 
 ### Paper and Technical Writing HOWTO
 
