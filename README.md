@@ -187,6 +187,8 @@ Other:
 
 [Deep Graph Methods Survey](https://arxiv.org/pdf/1901.00596.pdf)
 
+[Baselines and Bigrams: Simple, Good Sentiment and Topic Classification](https://www.aclweb.org/anthology/P12-2018)
+
 ### Blogs You Should Follow
 
 [Stanford AI Salon: bi-weekly discussion on important topic in AI/NLP/ML, closed from the public due to space restrictions, but notes and videos are now posted in a blog. Previous guests include LeCun, Hinton, Ng., and others](http://ai.stanford.edu/blog/)
