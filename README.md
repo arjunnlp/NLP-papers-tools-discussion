@@ -95,7 +95,7 @@ You are done, pandas is 10-30 times faster on some tasks! but sometimes will cra
 
 [ipyexperiments - will save you 20-30% video and 10-15% system memory](https://github.com/stas00/ipyexperiments)
 
-[ipyexperiof usage examples in some kaggle contest code I wrote](https://github.com/arjunnlp/NLP-papers-tools-discussion/blob/master/preprocess-dainis.ipynb)
+[ipyexperiments usage examples in some kaggle contest code I wrote](https://github.com/arjunnlp/NLP-papers-tools-discussion/blob/master/preprocess-dainis.ipynb)
 
 Make sure to either use IPyTorchExperiments all the time, or IPyCPUExperiments if don't care to use GPU. If you are using a GPU, you must be sure to use the IPyTorchExperiments and that the text after the cell tells you it is indeed using GPU backend.
 
@@ -139,7 +139,10 @@ How to do visualization or highly visual articles:
 
 [Attention? Attention!](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
-### Help with Class Balance and Distribution Issues 
+### Help with Class Balance and Distribution Issues
+
+[Learning to Reweight Examples for Robust Deep Learning](https://arxiv.org/pdf/1803.09050.pdf)
+[implementation of the "Learning to Reweight..." paper](https://github.com/danieltan07/learning-to-reweight-examples)
 
 [PyTorch imbalanced-dataset-toolkit](https://github.com/ufoym/imbalanced-dataset-sampler)
 
