@@ -158,6 +158,9 @@ How to do visualization or highly visual articles:
 
 [Deep Learning Unbalanced Data](https://towardsdatascience.com/deep-learning-unbalanced-training-data-solve-it-like-this-6c528e9efea6)
 
+### Other useful tools
+
+[DataFrameSummary: An extension to pandas dataframes describe function](https://github.com/mouradmourafiq/pandas-summary)
 
 ### Paper and Technical Writing HOWTO
 
@@ -216,8 +219,6 @@ Other:
 [Sylvain Gugger](https://sgugger.github.io/)
 
 [Sebastian Ruder](http://ruder.io/)
-
-[Ilya Sutskever](https://blog.openai.com/tag/ilya-sutskever/) - Sutskever published his Transformer in this blog, not even on arxiv
 
 [Jeremy Howard](https://twitter.com/jeremyphoward) 
 
