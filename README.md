@@ -16,6 +16,8 @@ BEYOND A FIXED-LENGTH CONTEXT](https://arxiv.org/pdf/1901.02860.pdf)
 
 ### New Libraries we care about
 
+[The Big-&-Extending-Repository-of-Transformers: Pretrained PyTorch models for Google's BERT, OpenAI GPT & GPT-2, Google/CMU Transformer-XL.](https://github.com/huggingface/pytorch-pretrained-BERT)
+
 [Flair - LM/Embedding/General NLP lib. Fastest growing NLP project on github](https://github.com/zalandoresearch/flair)
 
 [FAIRseq - Facebook AI Research toolkit for seqence modeling; features multi-GPU (distributed) training on one machine or across multiple machines. PyTorch](https://github.com/pytorch/fairseq)
