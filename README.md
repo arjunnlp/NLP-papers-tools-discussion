@@ -162,6 +162,8 @@ How to do visualization or highly visual articles:
 
 ### Other useful tools
 
+[mlextend 0 a library with useful extensions to a variaty of ML/NLP tools](http://rasbt.github.io/mlxtend/)
+
 [DataFrameSummary: An extension to pandas dataframes describe function](https://github.com/mouradmourafiq/pandas-summary)
 
 ### Paper and Technical Writing HOWTO
