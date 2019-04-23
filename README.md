@@ -16,6 +16,8 @@ BEYOND A FIXED-LENGTH CONTEXT](https://arxiv.org/pdf/1901.02860.pdf)
 
 ### New Libraries we care about
 
+[GluonNLP](https://gluon-nlp.mxnet.io/index.html)
+
 [Wow this is good! ULMFit for graphs! This person has a ton of other stuff, more productive thansome institutes](https://github.com/bkj/ulm-basenet)
 
 [The Big-&-Extending-Repository-of-Transformers: Pretrained PyTorch models for Google's BERT, OpenAI GPT & GPT-2, Google/CMU Transformer-XL.](https://github.com/huggingface/pytorch-pretrained-BERT)
