@@ -50,6 +50,16 @@ Consider using these:
 
 Next:
 
+[pandas.DataFrame.swifter.apply](https://medium.com/@jmcarpenter2/swiftapply-automatically-efficient-pandas-apply-operations-50e1058909f9)
+
+$ pip install -U pandas
+$ pip install swifter
+
+import pandas as pd
+import swifter
+
+mydf['outCol'] = df['inCol'].swifter.apply(anyfunction)
+
 [Mini-batch data parallelism, sort of default in PyTorch](https://towardsdatascience.com/speed-up-your-algorithms-part-1-pytorch-56d8a4ae7051)
 
 [Numba: compiled and highly optimized C/C++/Fortran code will be used instead of slow numpy (even cython is slower)](https://towardsdatascience.com/speed-up-your-algorithms-part-2-numba-293e554c5cc1)
