@@ -16,9 +16,14 @@ BEYOND A FIXED-LENGTH CONTEXT](https://arxiv.org/pdf/1901.02860.pdf)
 
 ### New Libraries we care about
 
+[PAIR: People + AI Research by Google Brain](https://ai.google/research/teams/brain/pair)
+
 [The prupose of this repository is to store tools on text classification with deep learning](]https://github.com/brightmart/text_classification)
 
 [GluonNLP](https://gluon-nlp.mxnet.io/index.html)
+
+[Representation learning on large graphs using stochastic graph convolutions.]
+(https://github.com/bkj/pytorch-graphsage)
 
 [Wow this is good! ULMFit for graphs! This person has a ton of other stuff, more productive thansome institutes](https://github.com/bkj/ulm-basenet)
 
@@ -31,6 +36,54 @@ BEYOND A FIXED-LENGTH CONTEXT](https://arxiv.org/pdf/1901.02860.pdf)
 [AllenNLP - An open-source NLP research library, built on PyTorch by Allen AI Research Institute](https://github.com/allenai/allennlp)
 
 [FastAI - ULMFit, Transformer, TransformerXL implementations and more](https://docs.fast.ai/text.html)
+
+### Visualization Tools
+
+People + AI Research (PAIR) by the Google Brain team:
+
+[What If...you could inspect a machine learning model, with minimal coding required?](https://pair-code.github.io/what-if-tool/)
+
+[FACETS - KNOW YOUR DATA](https://pair-code.github.io/facets/)
+
+#### General:
+
+[TensorboardX for PyTorch](https://github.com/arjunnlp/tensorboardX)
+
+[Visdom - similar to tensorboard](https://github.com/arjunnlp/visdom)
+
+#### Sequential:
+
+[LSTMVis: Visualizng LSTM](https://github.com/HendrikStrobelt/LSTMVis)
+
+[Seq2Seq Vis: Visualization for Sequential Neural Networks with Attention](https://github.com/HendrikStrobelt/Seq2Seq-Vis)
+
+#### Attention:
+
+[BERTVizTool for visualizing attention in BERT and OpenAI GPT-2](https://github.com/jessevig/bertviz)
+
+[tensor2tensor: visualizing Transformer paper](https://github.com/tensorflow/tensor2tensor/tree/master/tensor2tensor/visualization)
+
+#### How to do visualization or highly visual articles:
+
+[A.I. Experiments: Visualizing High-Dimensional Space](https://www.youtube.com/watch?v=wvsE8jm1GzE)
+
+[Guide to visualization of NLP representations and neural nets by C.Olah @ Google Brain](http://colah.github.io/)
+
+[Data Visualization](https://towardsdatascience.com/data-visualization/home)
+
+[The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
+
+[Deconstructing BERT: Distilling 6 Patterns from 100 Million Parameters, Part 1](https://towardsdatascience.com/deconstructing-bert-distilling-6-patterns-from-100-million-parameters-b49113672f77)
+
+[Deconstructing BERT: Distilling 6 Patterns from 100 Million Parameters, Part 2](https://towardsdatascience.com/deconstructing-bert-part-2-visualizing-the-inner-workings-of-attention-60a16d86b5c1)
+
+[The illustrated BERT, ELMo, ULMFit, and Transformer](https://jalammar.github.io/illustrated-bert/)
+
+[Visualizing Representations: Deep Learning for Human Beings](http://colah.github.io/posts/2015-01-Visualizing-Representations/)
+
+[Jay Allamar: Visualizing machine learning one concept at a time](https://jalammar.github.io/)
+
+[Attention? Attention!](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 ### My Bag of Tricks for Deep Learning performance - add yours too:
 
@@ -171,47 +224,6 @@ Assume `data` contains some items that we abstract as `...` . In general, follow
 3. Faster: `[d for d in data]`
 
 4. Fastest `(d for d in data)`
-
-
-### Visualization Tools
-
-General:
-
-[TensorboardX for PyTorch](https://github.com/arjunnlp/tensorboardX)
-
-[Visdom - similar to tensorboard](https://github.com/arjunnlp/visdom)
-
-Sequential:
-
-[LSTMVis: Visualizng LSTM](https://github.com/HendrikStrobelt/LSTMVis)
-
-[Seq2Seq Vis: Visualization for Sequential Neural Networks with Attention](https://github.com/HendrikStrobelt/Seq2Seq-Vis)
-
-Attention:
-
-[BERTVizTool for visualizing attention in BERT and OpenAI GPT-2](https://github.com/jessevig/bertviz)
-
-[tensor2tensor: visualizing Transformer paper](https://github.com/tensorflow/tensor2tensor/tree/master/tensor2tensor/visualization)
-
-How to do visualization or highly visual articles:
-
-[Guide to visualization of NLP representations and neural nets by C.Olah @ Google Brain](http://colah.github.io/)
-
-[Data Visualization](https://towardsdatascience.com/data-visualization/home)
-
-[The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
-
-[Deconstructing BERT: Distilling 6 Patterns from 100 Million Parameters, Part 1](https://towardsdatascience.com/deconstructing-bert-distilling-6-patterns-from-100-million-parameters-b49113672f77)
-
-[Deconstructing BERT: Distilling 6 Patterns from 100 Million Parameters, Part 2](https://towardsdatascience.com/deconstructing-bert-part-2-visualizing-the-inner-workings-of-attention-60a16d86b5c1)
-
-[The illustrated BERT, ELMo, ULMFit, and Transformer](https://jalammar.github.io/illustrated-bert/)
-
-[Visualizing Representations: Deep Learning for Human Beings](http://colah.github.io/posts/2015-01-Visualizing-Representations/)
-
-[Jay Allamar: Visualizing machine learning one concept at a time](https://jalammar.github.io/)
-
-[Attention? Attention!](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
 
 ### Help with Class Balance and Distribution Issues
 
