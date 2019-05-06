@@ -18,12 +18,13 @@ BEYOND A FIXED-LENGTH CONTEXT](https://arxiv.org/pdf/1901.02860.pdf)
 
 [PAIR: People + AI Research by Google Brain](https://ai.google/research/teams/brain/pair)
 
-[The prupose of this repository is to store tools on text classification with deep learning](]https://github.com/brightmart/text_classification)
+[StellarGraph: a Python library for machine learning on graph-structured or network-structured data](https://github.com/stellargraph/stellargraph)
+
+[The prupose of this repository is to store tools on text classification with deep learning](https://github.com/brightmart/text_classification)
 
 [GluonNLP](https://gluon-nlp.mxnet.io/index.html)
 
-[Representation learning on large graphs using stochastic graph convolutions.]
-(https://github.com/bkj/pytorch-graphsage)
+[Representation learning on large graphs using stochastic graph convolutions.](https://github.com/bkj/pytorch-graphsage)
 
 [Wow this is good! ULMFit for graphs! This person has a ton of other stuff, more productive thansome institutes](https://github.com/bkj/ulm-basenet)
 
