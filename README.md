@@ -34,7 +34,7 @@ BEYOND A FIXED-LENGTH CONTEXT](https://arxiv.org/pdf/1901.02860.pdf)
 
 ### My Bag of Tricks for Deep Learning performance - add yours too:
 
-First, make sure you got all the NVIDIA stuff:
+#### First, make sure you got all the NVIDIA stuff:
 
 [NVIDIA Apex: A PyTorch Extension: Tools for easy mixed precision and distributed training in Pytorch](https://github.com/nvidia/apex)
 
@@ -44,14 +44,17 @@ First, make sure you got all the NVIDIA stuff:
 
 [NVIDIA DALI: A library containing both highly optimized building blocks and an execution engine for data pre-processing in deep learning applications](https://github.com/NVIDIA/DALI)
 
-Consider using these:
+#### Consider using these:
 
 [NVIDIA optimized and tuned containers for various frameworks](https://developer.nvidia.com/deep-learning-frameworks)
 
-Next:
+#### Next we do parallelism:
 
 [pandas.DataFrame.swifter.apply](https://medium.com/@jmcarpenter2/swiftapply-automatically-efficient-pandas-apply-operations-50e1058909f9)
 
+Swifter will automatically apply the fastest method available (or so it says, more on it later). You want to make sure you have stuff like Dask intalled. It chooses between vectorization, Dask, and traditional pandas.apply
+
+```
 $ pip install -U pandas
 $ pip install swifter
 
@@ -59,11 +62,26 @@ import pandas as pd
 import swifter
 
 mydf['outCol'] = df['inCol'].swifter.apply(anyfunction)
+```
+
+[DASK - parallelizing numpy, pandasm python, scikit-learn, literally everything...](https://towardsdatascience.com/speeding-up-your-algorithms-part-4-dask-7c6ed79994ef)
+
+[Modin: An alternative to DASK but only for Pandas - much simpler and lighter if I/O is what you need. Will process 10 GB DataFrame in seconds.](https://github.com/modin-project/modin)
+
+```
+# replace the following line
+#import pandas as pd
+# with
+import modin.pandas as pd
+```
+
+You are done, pandas is 10-30 times faster on some tasks! but sometimes will crash :)
 
 [Mini-batch data parallelism, sort of default in PyTorch](https://towardsdatascience.com/speed-up-your-algorithms-part-1-pytorch-56d8a4ae7051)
 
-[Numba: compiled and highly optimized C/C++/Fortran code will be used instead of slow numpy (even cython is slower)](https://towardsdatascience.com/speed-up-your-algorithms-part-2-numba-293e554c5cc1)
+#### Compile your code the easy way
 
+[Numba: compiled and highly optimized C/C++/Fortran code will be used instead of slow numpy (even cython is slower)](https://towardsdatascience.com/speed-up-your-algorithms-part-2-numba-293e554c5cc1)
 
 Best of all you still code in python, just need a decorator on top of time-consuming function. MAKE SURE IT IS TIME CONSUMING - just spamming @njit eveywhere will do the opposite of what you want, initializing numba costs resources!
 
@@ -99,23 +117,61 @@ def function2(c):
     return result
 ```
 
-[DASK - parallelizing numpy, pandasm python, scikit-learn, literally everything...](https://towardsdatascience.com/speeding-up-your-algorithms-part-4-dask-7c6ed79994ef)
-
-[Modin: An alternative to DASK but only for Pandas - much simpler and lighter if I/O is what you need. Will process 10 GB DataFrame in seconds.](https://github.com/modin-project/modin)
-```
-# replace the following line
-#import pandas as pd
-# with
-import modin.pandas as pd
-```
-
-You are done, pandas is 10-30 times faster on some tasks! but sometimes will crash :)
+#### Eliminate memory leaks
 
 [ipyexperiments - will save you 20-30% video and 10-15% system memory](https://github.com/stas00/ipyexperiments)
 
 [ipyexperiments usage examples in some kaggle contest code I wrote](https://github.com/arjunnlp/NLP-papers-tools-discussion/blob/master/preprocess-dainis.ipynb)
 
 Make sure to either use IPyTorchExperiments all the time, or IPyCPUExperiments if don't care to use GPU. If you are using a GPU, you must be sure to use the IPyTorchExperiments and that the text after the cell tells you it is indeed using GPU backend.
+
+#### Speed up your loops
+
+In general, using numpy operations is preferred, e.g. `np.sum()` beats iterating. 
+
+Avoid if-else by using np.where is a big one. Here is an example of going from 1 trillion operations to 1 operation. Assuming
+each operation takes a nanosecond, that's 17 minutes vs 1 nanosecond.
+
+```
+# X is some numpy array, and you have a 1000 of those in a dataframe or in a list
+# If your column is 1000 in length, this is 1000 operations * size of numpy array (say 1000) = 1000000 operations
+def fun(x):
+    if x > 0:
+        x =+ 1
+    else:
+        x = 0
+    return x
+    
+# ~1000000000000 operations
+for X in data:
+    for x in X:
+        output.append(fun(x))
+
+# ~1000000 operations
+df['data'].apply([x for x in X])
+
+# ~1000 operations you are doing  no looping but pandas is single-threaded...
+df['data'].apply(X)
+
+# This is very fast, using vector math extensions. 1 Op on Xeon or i9 with MKL Installed.
+def fun2(x):
+    x[np.where(x > 0)] += 1
+    x[np.where(x <= 0)] = 0
+    return x
+
+df['data'].swifter.apply(fun2)
+```
+
+Assume `data` contains some items that we abstract as `...` . In general, follow this rule of thumb:
+
+1. Slowest: `for i in range(len(data)):`
+
+2. OK: `for d in data:`
+
+3. Faster: `[d for d in data]`
+
+4. Fastest `(d for d in data)`
+
 
 ### Visualization Tools
 
