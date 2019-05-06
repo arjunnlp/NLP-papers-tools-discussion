@@ -97,7 +97,7 @@ People + AI Research (PAIR) by the Google Brain team:
 
 [NVIDIA DALI: A library containing both highly optimized building blocks and an execution engine for data pre-processing in deep learning applications](https://github.com/NVIDIA/DALI)
 
-#### Consider using these:
+Consider using these:
 
 [NVIDIA optimized and tuned containers for various frameworks](https://developer.nvidia.com/deep-learning-frameworks)
 
