@@ -3,6 +3,10 @@ Anything useful goes here
 
 ### Possible research directions and Fundamental discussions
 
+[Structural probing: visualizing and understanding deep self-supervised language models, by Manning @ Stanford NLP - very important read](https://nlp.stanford.edu//~johnhew//structural-probe.html)
+
+[On interpretability of BERT - similar in spirit to the work above](https://pair-code.github.io/interpretability/bert-tree/)
+
 [The 4 Biggest Open Problems in NLP Today](http://ruder.io/4-biggest-open-problems-in-nlp/)
 
 [What innate priors should we build into the architecture of deep learning systems? A debate between Prof. Y. LeCun and Prof. C. Manning](https://www.abigailsee.com/2018/02/21/deep-learning-structure-and-innate-priors.html)
@@ -11,8 +15,15 @@ Anything useful goes here
 
 For practically anything involving LM:
 
-[TRANSFORMER-XL: ATTENTIVE LANGUAGE MODELS
-BEYOND A FIXED-LENGTH CONTEXT](https://arxiv.org/pdf/1901.02860.pdf)
+[XLNet: This King(s) are dead, long live the King! Sorry BERT, you were cool but now you are obolete :)](https://github.com/zihangdai/xlnet)
+
+[GPT-2: Too dangerous to release to the public. Well here it is, with the weights and all.](https://github.com/huggingface/pytorch-pretrained-BERT#14-gpt2model)
+
+[TRANSFORMER-XL: Still the only one you can use for realistically large documents. In the long term, IMHO this paper is a much more important contribution than BERT.](https://arxiv.org/pdf/1901.02860.pdf)
+
+[BERT: The great multi-tasker, trained to do a number of things really well. Great theoreical contributions -- the pinnacle of Attentions.](https://github.com/google-research/bert)
+
+[OpenAI Transformer, aka GPT-1](https://github.com/huggingface/pytorch-openai-transformer-lm)
 
 ### New Libraries we care about
 
